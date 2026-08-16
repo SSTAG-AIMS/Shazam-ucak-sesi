@@ -1,0 +1,83 @@
+{
+  "taxonomy_version": "1.0.0",
+  "maximum_depth": 2,
+  "unknown_policy": "Alt tür güvenilir biçimde doğrulanamıyorsa kategoriye ait UNKNOWN etiketi kullanılır.",
+  "categories": {
+    "AIRCRAFT": {
+      "unknown_subtype": "UNKNOWN_AIRCRAFT",
+      "subtypes": [
+        "AIRBUS_A320",
+        "BOEING_737_800",
+        "DASH_8_300",
+        "DIAMOND_DA42",
+        "EMBRAER_E190",
+        "FOKKER_100",
+        "PILATUS_PC12",
+        "SAAB_340",
+        "UNKNOWN_AIRCRAFT"
+      ]
+    },
+    "AMBIENT": {
+      "unknown_subtype": "UNKNOWN_AMBIENT",
+      "subtypes": [
+        "OFFICE_INDOOR",
+        "RAINFALL",
+        "UNKNOWN_AMBIENT"
+      ]
+    },
+    "SPEECH": {
+      "unknown_subtype": "UNKNOWN_SPEECH",
+      "subtypes": [
+        "ANNOUNCEMENT",
+        "CONVERSATION",
+        "CROWD",
+        "UNKNOWN_SPEECH"
+      ]
+    },
+    "TRAFFIC": {
+      "unknown_subtype": "UNKNOWN_TRAFFIC",
+      "subtypes": [
+        "BICYCLE",
+        "BUS",
+        "CAR",
+        "MOTORCYCLE",
+        "TRAIN",
+        "TRUCK",
+        "UNKNOWN_TRAFFIC"
+      ]
+    },
+    "WIND": {
+      "unknown_subtype": "UNKNOWN_WIND",
+      "subtypes": [
+        "LIGHT_WIND",
+        "MODERATE_WIND",
+        "STRONG_WIND",
+        "WIND_GUST",
+        "UNKNOWN_WIND"
+      ]
+    },
+    "OTHER": {
+      "unknown_subtype": "UNKNOWN_OTHER",
+      "subtypes": [
+        "CAT",
+        "CROW",
+        "DOG",
+        "PARROT",
+        "PEACOCK",
+        "SPARROW",
+        "UNKNOWN_OTHER"
+      ]
+    },
+    "LOGISTICS": {
+      "unknown_subtype": "UNKNOWN_LOGISTICS",
+      "subtypes": [
+        "BAGGAGE_TRACTOR",
+        "BELT_LOADER",
+        "FUEL_TRUCK",
+        "GROUND_POWER_UNIT",
+        "PUSHBACK_TUG",
+        "UNKNOWN_LOGISTICS"
+      ]
+    }
+  }
+}

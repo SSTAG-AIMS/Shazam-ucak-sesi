@@ -1,0 +1,90 @@
+# Python bytecode, caches and test artefacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Python environments and secrets
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Notebook state
+.ipynb_checkpoints/
+
+# Raw, derived and independent-test audio datasets
+downloads/
+Dataset_Airplane/
+Dataset_ESC50/
+Self_Data/
+Test_Data/
+Test_Folder/
+sounds/
+recordings/
+center_recordings/
+edge_device/recordings/
+edge_device/center_recordings/
+
+# Model weights, embeddings and fingerprint databases are local artefacts.
+# Keep models/README.md as the inventory/installation guide.
+models/*
+!models/README.md
+*.pt
+*.pth
+*.safetensors
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated manifests, feature caches and run output
+cache/
+outputs/*
+!outputs/README.md
+outputs_gui/
+outputs_mic/
+*.log
+*.pid
+firmware.log
+
+# Generated archives and office/render artefacts
+release_assets/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.docx
+*.pdf
+.docx-build/
+.report_work/
+.qa-*/
+
+# Local demonstration media and scratch files
+demo_airport_sound.wav
+airport_noise_dashboard.png
+airport_noise_classification_pie.png
+tempCodeRunnerFile.py
+MDs/
+
+# Bundled extraction binaries are not required by the Python source tree
+tools/7zip/
+tools/7zr.exe

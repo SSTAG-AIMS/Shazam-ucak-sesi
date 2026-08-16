@@ -1,0 +1,45 @@
+{
+  "AIRCRAFT": {
+    "status": "trained",
+    "subtypes": [
+      "AIRBUS_A320",
+      "BOEING_737_800",
+      "DASH_8_300",
+      "DIAMOND_DA42",
+      "EMBRAER_E190",
+      "FOKKER_100",
+      "PILATUS_PC12",
+      "SAAB_340"
+    ]
+  },
+  "TRAFFIC": {
+    "status": "data_available",
+    "subtypes": ["CAR", "BUS", "TRUCK", "MOTORCYCLE", "TRAIN", "BICYCLE"]
+  },
+  "AMBIENT": {
+    "status": "needs_multiple_source_recordings",
+    "subtypes": ["OFFICE_INDOOR", "RAINFALL"]
+  },
+  "OTHER": {
+    "status": "data_available",
+    "subtypes": ["CAT", "DOG", "CROW", "SPARROW", "PARROT", "PEACOCK"]
+  },
+  "SPEECH": {
+    "status": "needs_labeled_data",
+    "subtypes": ["ANNOUNCEMENT", "CONVERSATION", "CROWD"]
+  },
+  "WIND": {
+    "status": "needs_labeled_data",
+    "subtypes": ["LIGHT_WIND", "MODERATE_WIND", "STRONG_WIND", "WIND_GUST"]
+  },
+  "LOGISTICS": {
+    "status": "needs_labeled_data",
+    "subtypes": [
+      "BAGGAGE_TRACTOR",
+      "BELT_LOADER",
+      "PUSHBACK_TUG",
+      "GROUND_POWER_UNIT",
+      "FUEL_TRUCK"
+    ]
+  }
+}
